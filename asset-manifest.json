@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react1st/static/css/main.8ba9b40d.css",
+    "main.js": "/react1st/static/js/main.545fd3e9.js",
+    "static/media/web.jpg": "/react1st/static/media/web.97e834378bd4c1df81a4.jpg",
+    "static/media/swd.jpg": "/react1st/static/media/swd.d5b3f2b7e5dfcafef6ee.jpg",
+    "static/media/degital.jpg": "/react1st/static/media/degital.c3ab3a8468aa776c933b.jpg",
+    "static/media/marketing.jpg": "/react1st/static/media/marketing.a03dc0f0c423fb867e12.jpg",
+    "static/media/app.jpg": "/react1st/static/media/app.5b50cb015d998fe896c6.jpg",
+    "static/media/about.jpg": "/react1st/static/media/about.84949ea5dbf787761fe6.jpg",
+    "static/media/android.jpg": "/react1st/static/media/android.3cc033f0d523fd3e57d3.jpg",
+    "static/media/home.jpg": "/react1st/static/media/home.b17918785042d0e6e6c5.jpg",
+    "index.html": "/react1st/index.html",
+    "main.8ba9b40d.css.map": "/react1st/static/css/main.8ba9b40d.css.map",
+    "main.545fd3e9.js.map": "/react1st/static/js/main.545fd3e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ba9b40d.css",
+    "static/js/main.545fd3e9.js"
+  ]
+}
