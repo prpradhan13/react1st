@@ -1,13 +1,129 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;900&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  background-color: #fff !important;
+}
+
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: #565387;
+}
+
+.navbar {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+
+.navbar :hover {
+  color: #b4582d !important;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+
+  .menu_active {
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
+
+
+
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 600;
+  color: black;
+}
+
+#header .brand-name {
+  color: #b4582d;
+}
+
+#header h2 {
+  color: #484848;
+  font-size: 24px;
+}
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both; 
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+
+.txt-color{
+  color: rgb(101, 47, 250);
+}
+
+.btn-services {
+  justify-content: center;
+  padding: 6px;
+  background-color: rgb(101, 47, 250);
+  border: 2px;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-services:hover {
+  background-color: rgba(93, 40, 240, 0.849);
+}
+
+.contact_div {
+  width: 100%;
+  height: 75vh;
+}
+
+@media (max-width: 991px) {
+  #header {
+    height: 80vh;
+    text-align: center;
+  }
+  #header .header-img {
+    text-align: center;
+  }
+  #header .header-img img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    margin-top: 20px;
+  }
+  #header h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  #header .header-img img {
+    width: 70%;
+  }
 }
